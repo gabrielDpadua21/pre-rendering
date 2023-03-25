@@ -5,7 +5,7 @@ export function getStaticProps() {
         props: {
             number: Math.floor(Math.random() * 10) + 1
         },
-        revalidate: 30
+        revalidate: 30 // seconds
     }
 }
 
